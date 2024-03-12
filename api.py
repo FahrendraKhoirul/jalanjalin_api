@@ -7,7 +7,6 @@ app = Flask(__name__)
 CORS(app)
 
 
-
 def addGreeting(name, text):
     with open('data.json') as f:
         data = json.load(f)
